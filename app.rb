@@ -9,7 +9,7 @@ class App < Sinatra::Base
 
   
 
-  get '/hey' do
+  get '/' do
     @session = session
   end
 
